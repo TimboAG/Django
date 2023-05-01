@@ -1,0 +1,6 @@
+{% extends 'base.html' %} {% block titulo%} Post {% endblock titulo %}
+<!---->
+{% block miPosteos %}
+<h1>{{miPost.titulo}}</h1>
+<p>{{miPost.contenido}}</p>
+<a href="/"> Volver al inicio</a> {% endblock miPosteos %}
